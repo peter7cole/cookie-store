@@ -1,0 +1,48 @@
+body {
+  /* background-color: #f5f5f5; */
+  background-color: #66608d;
+  color: white;
+}
+
+main {
+  padding-left: 6em;
+}
+
+h2 {
+  color: #d5d667;
+}
+
+a {
+  text-decoration: none;
+  color: #d5d667;
+}
+
+button {
+  border-color: #d5d667;
+}
+
+p,
+li {
+  font-size: 18px;
+}
+
+.header-box {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+  padding: 4em 3em 8em 5em !important;
+  color: #f1f272;
+  text-shadow: 0px 0px 6px #d5d667;
+  background-color: #3b3756;
+}
+
+.footer-box {
+  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+  padding: 3em 3em 3em 0 !important;
+  color: #f1f272;
+  background-color: #3b3756;
+}
+
+.footer-links {
+  padding: 5em;
+}
